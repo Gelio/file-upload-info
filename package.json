@@ -1,0 +1,23 @@
+{
+  "name": "file-upload-info",
+  "version": "1.0.0",
+  "description": "A node server that downloads files from users and returns information about them",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gelio/file-upload-info.git"
+  },
+  "author": "Grzegorz Rozdzialik <voreny.gelio@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gelio/file-upload-info/issues"
+  },
+  "homepage": "https://github.com/Gelio/file-upload-info#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "multer": "^1.1.0"
+  }
+}
