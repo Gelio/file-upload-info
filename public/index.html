@@ -11,9 +11,14 @@
 </div>
 
 <div>
-    <form>
-        <input type="submit" value="Upload">
+    <form enctype="multipart/form-data" class="upload-form">
+        <input type="file" name="file">
+        <input type="submit" value="Upload" class="upload-file">
     </form>
+</div>
+
+<div class="file-info">
+
 </div>
 
 <script src="jquery.min.js"></script>
